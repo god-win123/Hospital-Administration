@@ -1,0 +1,61 @@
+{% extends "Hospital.html" %}
+{% load static %}
+{% block content %}
+
+<div class="image">
+    <img id = 'banner' src="{% static 'images/bg_image_1.jpg' %}">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 id = "call_head"><b>Booking</b></h1>
+</div>
+
+<div class="form">
+    <div class="container">
+    <img id = 'banner2' src="{% static 'images/background_image2.jpg' %}" alt="">
+    </div>
+    <form class="box1">
+        <label id="box_name1">Name:</label><br>
+        <input type="text" id="Name1" placeholder="Full Name"><br>
+        <br>
+        <label class="box_email10" for="E_mail">Email_id:</label><br>
+        <input type="text" id="e_mail10" placeholder="Enter E_mail"><br>
+    </form>
+    <br>
+    <br>
+    <form class="box20">
+        <label id="box_ph20">Ph_no:</label><br>
+        <input type="text" id="phone20" placeholder=" Enter Phone_Number"><br>
+        <br>
+        <label class="box_add20">Address</label><br>
+        <input type="text" id="add20" placeholder="Enter Address"><br>
+    </form>
+
+    <br>
+    <br>
+    <form class="box30">
+        <label class="sub_box30">Subject:</label><br>
+        <br>
+        <input type="text" id="Subject30" placeholder="Enter Subject">
+        <br>
+        <br>
+        <label class="mess_box30">Message:</label><br>
+        <br>
+        <input type="text" id="Message_box30" placeholder="Enter Message">
+    </form>
+    <br>
+    <br>
+    <div>
+        <a class="Send40" href="https://www.free-css.com/free-css-templates"><strong>Send Message<strong></a>
+    </div>
+
+    
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends "Hospital.html" %}
+{% load static %}
+{% block content %}
+
+<div id = "bkimg">
+    <img id = 'bck_img' src="{% static 'images/22.jpg' %}">
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+<h1 id = "Dep"><b>Our Departments</b></h1>
+
+<div>
+    <div class="Department">
+        <div class="photo1">
+        <img src="{% static 'images/Cardiology.jpg' %}" alt="coffee shop" width="300" height="300" style="margin-left: 0em;"><br>
+        <h3 class="dr1">Cardiology</h3>
+        <img src="{% static 'images/orthopedics.jpg' %}" alt="coffee shop" width="300" height="300" style="margin-left: 5em;"><br> 
+        <h3 class="dr2">orthopedics</h3>
+        <img src="{% static 'images/Dental.jpeg' %}" alt="coffee shop" width="300" height="300" style="margin-left: 5em;"><br>
+        <h3 class="dr3">Dental</h3>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class = "Department2">
+       
+        <div class="photo2">
+        <img src="{% static 'images/Gynecology.jpg' %}" alt="coffee shop" width="300" height="300" style="margin-left: 0em;"><br>
+        <h3 class = 'dr4'>Gynecology</h3>
+        <img src="{% static 'images/pediatrician.jpg' %}" alt="coffee shop" width="300" height="300" style="margin-left: 5em;"><br>
+        <h3 class = 'dr5'>pediatrician</h3>
+        <img src="{% static 'images/ophthalmigy.jpeg' %}" alt="coffee shop" width="300" height="300" style="margin-left: 5em;"><br>
+        <h3 class="dr6">ophthalmigy</h3>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div class="Department3">
+        <div class="photo3">
+        <img src="{% static 'images/Nurology.jpeg' %}" alt="coffee shop" width="300" height="300" style="margin-left: 0em;">
+        <h3 class="dr7">Nurology</h3>
+        <img src="{% static 'images/Cancer.jpeg' %}" alt="coffee shop" width="300" height="300" style="margin-left: 5em;">
+        <h3 class="dr8">Cancer</h3>
+        <img src="{% static 'images/skin.jpg' %}" alt="coffee shop" width="300" height="300" style="margin-left: 5em;">
+        <h3 class="dr9">skin</h3>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div>
+        <a class="website" href="https://www.free-css.com/free-css-templates"><strong>See More<strong></a>
+    </div>
+</div>
+{% endblock %}

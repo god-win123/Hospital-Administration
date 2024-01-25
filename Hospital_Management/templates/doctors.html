@@ -1,0 +1,14 @@
+{% extends "Hospital.html" %}
+{% load static %}
+{% block content %}
+<h1>Our Doctors</h1>
+
+{% for i in doct_list %}
+
+<img class="new_ph" src="{{i.Images.url}}" alt="" style="height: 200px; width: 300px;">
+<h1 id="identity">{{i.name}}</h1>
+<head id = "dep">{{i.department}}</head>
+<h3 class = "discr" >{{i.description}}</h3>
+<br>
+{% endfor %}
+{% endblock %}

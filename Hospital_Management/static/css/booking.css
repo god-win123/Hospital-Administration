@@ -1,0 +1,169 @@
+#banner{
+    background-attachment: fixed;
+    margin-left: 1px;
+    margin-top: 4px;
+    color: white;
+    background-size: contain;
+    height: 30em;
+    width: 1331px;
+    background-repeat: repeat;
+}
+
+#call_head{
+    margin-left: 545px;
+    margin-top: 9px;
+    margin-bottom: 38px;
+    font-size: 41px;
+    color: #223a66;
+}
+
+#banner2 {
+    background: url(/static/img/background_image2.jpg) 50% 0 no-repeat fixed;
+    height: 66em;
+    width: 79em;
+    margin-left: 27px;
+    margin-right: 19px;
+    opacity: 1.5;
+    border-radius: 196px;
+}
+
+
+.box1{
+    margin-left: 200px;
+    display: flex;
+    gap: 25px;
+}
+
+#Name1{
+    height: 3em;
+    width: 28em;
+    margin-left: -90px;
+    margin-top: -922px;
+    
+
+}
+
+input[type = text]{
+    border-color: #223a66;
+    border-radius: 17px;
+}
+
+
+#box_name1{
+    color: rgb(255, 51, 0);
+    font-size: 25px;
+    margin-top: -966px;
+    margin-left: 30px;
+    margin-right: -27px;
+}
+
+
+
+#e_mail10{
+    height: 3em;
+    width: 28em;
+    margin-left: -134px;
+    margin-top: -922px;
+}
+
+.box_email10{
+    color: rgb(255, 51, 0);
+    font-size: 25px;
+    margin-top: -970px;
+    margin-left: 27px;
+    margin-right: -17px;
+}
+
+.box30{
+    margin-top: -822px;
+}
+
+.sub_box30{
+    color: rgb(255, 51, 0);
+    font-size: 25px;
+    margin-top: 500px;
+    margin-left: 230px;
+}
+
+#Subject30{
+    height: 5em;
+    width: 63em;
+    margin-left: 223px;
+}
+
+
+.box20{
+    margin-left: 200px;
+    display: flex;
+    gap: 25px;
+}
+
+#phone20{
+    height: 3em;
+    width: 28em;
+    margin-left: -82px;
+    margin-top: -869px;
+    
+
+}
+
+input[type = text]{
+    border-color: #223a66;
+    border-radius: 17px;
+}
+
+
+#box_ph20{
+    color: rgb(255, 51, 0);
+    font-size: 25px;
+    margin-top: -914px;
+    margin-left: 36px;
+    margin-right: -46px;
+}
+
+
+
+#add20{
+    height: 3em;
+    width: 28em;
+    margin-left: -96px;
+    margin-top: -869px;
+}
+
+.box_add20{
+    color: rgb(255, 51, 0);
+    font-size: 25px;
+    margin-top: -911px;
+    margin-left: 30px;
+    margin-right: -42px;
+}
+
+.mess_box30{
+    color: rgb(255, 51, 0);
+    font-size: 25px;
+    margin-top: 500px;
+    margin-left: 230px;
+}
+
+#Message_box30{
+    height: 15em;
+    width: 63em;
+    margin-left: 219px;
+    padding: 8px 15px
+}
+
+.Send40{
+    background-color:#252525;
+    color: white;
+    padding: 18px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 228px;
+    padding-bottom: -30%;
+    border: 1px solid #d6dbd9
+}
+
+.Send40:hover{
+    background-color: #223a66;
+}

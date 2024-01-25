@@ -1,0 +1,115 @@
+#bkimg{
+  margin-top: 3px;
+  
+}
+
+#bck_img{
+  background: url("/static/img/22.jpg") 50% 0 no-repeat fixed;
+  height: 350px;
+  width: 83em;
+  
+
+  
+  }
+#Dep {
+  color: #223a66;
+  margin-left: 7em;
+  font-size: 60px;
+  }
+
+.Department{
+  left:0;
+  right: 0;
+}
+
+.photo1{
+  display: flex;
+  gap: 25px;
+  margin: 0px 10px 30px 200px;
+}
+
+.dr1{
+  color:  #223a66;
+  margin-top: 17em;
+  margin-left: -12em;
+}
+
+.dr2{
+  color:  #223a66;
+  margin-top: 17em;
+  margin-left: -12em;
+}
+
+.dr3{
+  color:  #223a66;
+  margin-top: 17em;
+  margin-left: -12em;
+}
+
+.Department2{
+  left:0;
+  right: 0;  
+}
+.photo2{
+  display: flex;
+  gap: 25px;
+  margin:  0px 10px 30px 200px;
+}
+.dr4{
+  color:  #223a66;
+  margin-top: 17em;
+  margin-left: -12em;
+}
+
+.dr5{
+  color:  #223a66;
+  margin-top: 17em;
+  margin-left: -12em;
+}
+
+.dr6{
+  color:  #223a66;
+  margin-top: 17em;
+  margin-left: -12em;
+}
+
+
+.Department3{
+  left:0;
+  right: 0;
+}
+
+.photo3{
+  display: flex;
+  gap: 52px;
+  margin:  0px 10px 30px 200px;
+}
+
+.dr7{
+  color:  #223a66;
+  margin-top: 17em;
+  margin-left: -12em;
+}
+
+.dr8{
+  color:  #223a66;
+  margin-top: 17em;
+  margin-left: -12em;
+}
+
+.dr9{
+  color:  #223a66;
+  margin-top: 17em;
+  margin-left: -12em;
+}
+
+
+.website{
+  margin-left: 12em;
+  background-color:#223a66;
+  color: white;
+  padding: 18px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

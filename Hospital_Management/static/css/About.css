@@ -1,0 +1,36 @@
+#photo{
+    float:inline-end; 
+    width: 31em;
+    height: 30em;
+    margin-left:-20px;
+    margin-top: 30px;
+    
+}
+
+#head{
+    color: orangered;
+    margin-top: -42px;
+    margin-bottom: 47px;
+    margin-left: 22px;
+}
+#new_para{
+    margin-left: 17px;
+    font-size:18px;
+}
+
+
+
+.link{
+    background-color:#252525;
+    color: white;
+    padding: 18px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    padding-bottom: -30%;
+}
+
+.link:hover{
+    background-color: orangered;
+}

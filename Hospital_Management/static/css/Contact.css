@@ -1,0 +1,170 @@
+#bkc{
+    margin-top: 2px;
+}
+
+#click {
+    background: url("/static/img/doctors100.jpg") 50% 0 no-repeat fixed;
+    height: 500px;
+    width: 1336px;
+  }
+#call {
+    color: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+    margin-left: 9em;
+    font-weight: 400;
+    font-size: 57px;
+}
+
+
+.form {
+    left: 0;   
+}
+
+#click2 {
+    background: url("/static/img/background_image2.jpg") 50% 0 no-repeat fixed;
+    height: 76em;
+    width: 80em;
+    margin-left: 12px;
+    opacity: 1.5;
+}
+
+
+
+.box{
+    margin-left: 200px;
+    display: flex;
+    gap: 25px;
+}
+
+#Name{
+    height: 3em;
+    width: 28em;
+    margin-left: -82px;
+    margin-top: -1064px;
+    
+
+}
+
+input[type = text]{
+    border-color: #223a66;
+    border-radius: 17px;
+}
+
+
+#box_name{
+    color: rgb(255, 51, 0);
+    font-size: 25px;
+    margin-top: -1104px;
+    margin-left: 30px;
+    margin-right: -27px;
+}
+
+
+
+#e_mail{
+    height: 3em;
+    width: 28em;
+    margin-left: -107px;
+    margin-top: -1064px;
+}
+
+.box_email{
+    color: rgb(255, 51, 0);
+    font-size: 25px;
+    margin-top: -1097px;
+    margin-left: 30px;
+    margin-right: -27px;
+}
+
+.box3{
+    margin-top: -1000px;
+}
+
+.sub_box{
+    color: rgb(255, 51, 0);
+    font-size: 25px;
+    margin-top: 500px;
+    margin-left: 230px;
+}
+
+#Subject{
+    height: 5em;
+    width: 63em;
+    margin-left: 223px;
+}
+
+
+.box2{
+    margin-left: 200px;
+    display: flex;
+    gap: 25px;
+}
+
+#phone{
+    height: 3em;
+    width: 28em;
+    margin-left: -82px;
+    margin-top: -1027px;
+    
+
+}
+
+input[type = text]{
+    border-color: #223a66;
+    border-radius: 17px;
+}
+
+
+#box_ph{
+    color: rgb(255, 51, 0);
+    font-size: 25px;
+    margin-top: -1064px;
+    margin-left: 30px;
+    margin-right: -27px;
+}
+
+
+
+#add{
+    height: 3em;
+    width: 28em;
+    margin-left: -96px;
+    margin-top: -1027px;
+}
+
+.box_add{
+    color: rgb(255, 51, 0);
+    font-size: 25px;
+    margin-top: -1058px;
+    margin-left: 30px;
+    margin-right: -27px;
+}
+
+.mess_box{
+    color: rgb(255, 51, 0);
+    font-size: 25px;
+    margin-top: 500px;
+    margin-left: 230px;
+}
+
+#Message_box{
+    height: 15em;
+    width: 63em;
+    margin-left: 219px;
+    padding: 8px 15px
+}
+
+.Send{
+    background-color:#252525;
+    color: white;
+    padding: 18px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 228px;
+    padding-bottom: -30%;
+    border: 1px solid #d6dbd9
+}
+
+.Send:hover{
+    background-color: #223a66;
+}
